@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Basic configurations
 
 # Fetch MongoDB URI from environment variable
-app.config["MONGO_URI"] = app.config["MONGO_URI"] = 'mongodb+srv://netaasree:Doreamon%40143@cluster1.gtow5.mongodb.net/DailyDiary?retryWrites=true&w=majority&appName=Cluster1'
+app.config["MONGO_URI"] = 'mongodb+srv://netaasree:Doreamon%40143@cluster1.gtow5.mongodb.net/DailyDiary?retryWrites=true&w=majority&appName=Cluster1'
 
 
 # CORS setup
